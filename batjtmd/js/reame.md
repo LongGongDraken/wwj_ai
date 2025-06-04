@@ -5,3 +5,10 @@
 变量的本质是对一块内存地址的引用。
 
 - js 里变量的类型是由什么决定？
+    弱类型
+- js的几种基本数据类型
+    String，Boolean，Number，Undefined(未定义)，Null（值为空）
+    Symbol，bigint（新增简单数据类型）
+- 其他都是对象 
+
+- js 中怎么声明变量
