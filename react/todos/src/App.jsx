@@ -39,7 +39,7 @@ import './App.css'
 function App() {
   // 数据 -> 数据状态 数据业务  改变的
   let [todos,setTodos] = useState(['吃饭','睡觉','打豆豆']);// 数组 -> 数据
-  const[title,setTitle] = useState('李鱼缸 字节');
+  const[title,setTitle] = useState(['李鱼缸 字节']);
 
   setTimeout(() => {
     // setTodos(['吃饭','睡觉','打豆豆','养鱼']);
@@ -49,7 +49,7 @@ function App() {
 
   return(
     <div>
-      <h1 className="title">拿下字节</h1>
+      <h1 className="title">{title}</h1>
       <table>
         <thead>
           <tr>
